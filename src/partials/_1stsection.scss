@@ -1,0 +1,8 @@
+.btn-purple {
+    @include button($primary-color, $second-color, uppercase, bold); 
+}
+
+.btn-outline-purple {
+    @include button($second-color, $primary-color, uppercase, bold);
+    border: 1px solid $primary-color;
+}
